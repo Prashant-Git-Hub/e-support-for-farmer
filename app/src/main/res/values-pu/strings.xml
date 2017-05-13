@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="My_Crops">ਮੇਰੀ ਵਾਢੀ</string>
+    <string name="Weather">ਮੌਸਮ</string>
+    <string name="Agriculture_Library">ਖੇਤੀਬਾੜੀ ਲਾਇਬ੍ਰੇਰੀ</string>
+    <string name="Nearest_Selling_point">ਵੇਚਣ ਬਿੰਦੂ</string>
+    <string name="Fertilizers">ਖਾਦ</string>
+    <string name="Current_Price">ਮੌਜੂਦਾ ਕੀਮਤ</string>
+    <string name="Full_Name">ਪੂਰਾ ਨਾਂਮ</string>
+    <string name="Phone_no">ਫੋਨ ਦਾ ਕੋਈ.</string>
+    <string name="Password">ਪਾਸਵਰਡ</string>
+    <string name="Already_have_an_account">
+ਹੀ ਇੱਕ ਖਾਤਾ ਹੈ?</string>
+    <string name="Sign_up">ਸਾਇਨ ਅਪ</string>
+    <string name="Sign_in">ਸਾਈਨ - ਇਨ</string>
+    <string name="Create">ਬਣਾਉਣ</string>
+    <string name="Log_out">ਲਾੱਗ ਆਊਟ, ਬਾਹਰ ਆਉਣਾ</string>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "173677684529",
+    "firebase_url": "https://e-support-for-farmers.firebaseio.com",
+    "project_id": "e-support-for-farmers",
+    "storage_bucket": "e-support-for-farmers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173677684529:android:2206d63a4cdb8235",
+        "android_client_info": {
+          "package_name": "com.capstone.farmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173677684529-bubl7o726ivuo28n3g3q4ek51ff0ds6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDDlWb1xWRl75QW2D-3CPb6kWTTxrLdHM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

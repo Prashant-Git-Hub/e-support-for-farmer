@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lang_change"
+            android:icon="@drawable/lang"
+            android:title="Change Language" />
+
+
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/exit"
+            android:title="@string/Log_out" />
+    </group>
+
+</menu>

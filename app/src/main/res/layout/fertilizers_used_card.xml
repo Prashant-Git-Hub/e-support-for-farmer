@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/angle"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/cropName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maize"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#FFF"
+                android:layout_marginLeft="15dp"/>
+
+            <View
+                android:id="@+id/viewBottom"
+                android:layout_width="match_parent"
+                android:layout_below="@id/cropName"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:background="#2E8B57"/>
+
+            <TextView
+                android:id="@+id/ph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(per hectare)"
+                android:textStyle="bold|italic"
+                android:layout_marginRight="5dp"
+                android:textSize="15sp"
+                android:textColor="#FFF"
+                android:layout_marginLeft="250dp"/>
+
+
+
+            <TextView
+                android:id="@+id/Manure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cropName"
+                android:text="Manure -> "
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFF"
+                />
+
+            <TextView
+                android:id="@+id/M_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/cropName"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="250dp"
+                android:textColor="#FFF"
+                />
+
+            <TextView
+                android:id="@+id/Nitrogenous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Manure"
+                android:text="Nitrogenous(N) -> "
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFF"
+                />
+
+            <TextView
+                android:id="@+id/N_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="75"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/Manure"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="250dp"
+                android:textColor="#FFF"
+                />
+
+            <TextView
+                android:id="@+id/Phosphatic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Nitrogenous"
+                android:text="Phosphatic (P2O5) -> "
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFF"
+                />
+
+            <TextView
+                android:id="@+id/Ph_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="62"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/Nitrogenous"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="250dp"
+                android:textColor="#FFF"
+                />
+
+            <TextView
+                android:id="@+id/Potassic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Phosphatic"
+                android:text="Potassic (K2O) -> "
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFF"
+                />
+
+            <TextView
+                android:id="@+id/Po_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="62"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/Phosphatic"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="250dp"
+                android:textColor="#FFF"
+                />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

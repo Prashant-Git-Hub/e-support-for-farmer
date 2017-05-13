@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timg">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/add"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="31dp"
+            android:scaleType="fitXY"
+            android:id="@+id/addButton" />
+
+        <View
+            android:id="@+id/viewTop"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/addButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mycroplist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/viewTop" />
+
+    </RelativeLayout>
+</FrameLayout>
+

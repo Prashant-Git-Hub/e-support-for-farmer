@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img"
+    tools:context=".StartUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rdoLanguage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="250dp">
+            <RadioButton
+                android:layout_width="292dp"
+                android:layout_height="47dp"
+                android:text="English"
+                android:id="@+id/rdoEnglish"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:layout_marginTop="25dp"
+                android:onClick="onClickRadio"/>
+
+
+
+            <RadioButton
+                android:layout_width="292dp"
+                android:layout_height="47dp"
+                android:text="हिंदी"
+                android:id="@+id/rdoHindi"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:onClick="onClickRadio"/>
+            <RadioButton
+                android:layout_width="292dp"
+                android:layout_height="47dp"
+                android:text="ਪੰਜਾਬੀ"
+                android:id="@+id/rdoPunjabi"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:onClick="onClickRadio"/>
+
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circleangle"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="140dp">
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Language/भाषा चुनें"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
